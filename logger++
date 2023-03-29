@@ -1,0 +1,5 @@
+#chcking for open redirect,xss,ssrf
+Request.Query CONTAINS "=https"
+
+#finding api
+Request.Hostname CONTAINS "api.domain.com"
